@@ -86,11 +86,6 @@ s3-versioning-project/
    python compare_versions.py
    ```
 
-5. **Run unit tests** to verify functionality:
-   ```bash
-   pytest tests/
-   ```
-
 ---
 
 ## **Conclusion**
