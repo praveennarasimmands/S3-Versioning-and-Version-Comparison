@@ -54,19 +54,13 @@ Below is the Git repository structure for this project:
 ```plaintext
 s3-versioning-project/
 │
-├── README.md                    # Project description and setup instructions
 ├── requirements.txt              # Python dependencies
 ├── versioning.py                 # Script to enable versioning
 ├── compare_versions.py           # Script to compare versions of objects in S3
-├── config/
-│   └── s3_config.py              # S3 configuration file (bucket names, AWS credentials, etc.)
 └── tests/
     ├── test_versioning.py        # Unit test for versioning-related functionality
     └── test_compare_versions.py  # Unit test for comparing versions of objects
 ```
-
-
-
 
 ---
 
@@ -82,19 +76,17 @@ s3-versioning-project/
    pip install -r requirements.txt
    ```
 
-3. **Configure AWS credentials** using the AWS CLI or directly in the `config/s3_config.py` file.
-
-4. **Enable S3 versioning** by running:
+3. **Enable S3 versioning** by running:
    ```bash
    python versioning.py
    ```
 
-5. **Compare versions** of a file using:
+4. **Compare versions** of a file using:
    ```bash
    python compare_versions.py
    ```
 
-6. **Run unit tests** to verify functionality:
+5. **Run unit tests** to verify functionality:
    ```bash
    pytest tests/
    ```
