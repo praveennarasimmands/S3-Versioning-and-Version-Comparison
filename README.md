@@ -57,9 +57,6 @@ s3-versioning-project/
 ├── requirements.txt              # Python dependencies
 ├── versioning.py                 # Script to enable versioning
 ├── compare_versions.py           # Script to compare versions of objects in S3
-└── tests/
-    ├── test_versioning.py        # Unit test for versioning-related functionality
-    └── test_compare_versions.py  # Unit test for comparing versions of objects
 ```
 
 ---
